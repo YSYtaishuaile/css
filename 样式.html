@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .div1{
+        /* background: red; */
+        /*背景颜色*/
+        background-color: yellow;
+        /* 背景图片 通过url（）引入图片地址 */
+        background-image:  url(../css/bbb.jpg);
+        background-repeat: no-repeat;
+        background-position: -200px 120px;
+        /* 合并写法 */
+        background: yellow url(../css/bbb.jpg) no-repeat 100px 10px;
+        background-color: aqua;
+        height: 500px;
+    }
+    .div2{
+        /* 宽高 */
+        width: 150px;
+        height: 150px;
+        background-image: url(../css/bbb.jpg);
+        background-repeat: no-repeat;
+        background-position: -230px -100px;
+    }
+    .div3{
+        background: brown;
+        color: white;
+        /* 首行缩进 */
+        text-align: center;
+        height: 150px;
+        line-height: 100px;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="div1" id="a">
+        ysy太帅了
+    </div>
+    <div class="div2"></div>
+    <div class="div3">
+        ysy太帅了
+    </div>
+</body>
+</html>
